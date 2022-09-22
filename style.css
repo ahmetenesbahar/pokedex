@@ -5,6 +5,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffd369;
+  height: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darken(#ffd369, 50);
+}
 
 body {
   background-color: #2c3333;
@@ -12,7 +31,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 h1 {
@@ -62,7 +81,7 @@ button {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  padding: 3rem;
+  position: relative;
 }
 
 .poke-box {
@@ -85,4 +104,5 @@ button {
 .poke-box p {
   margin: 5px auto;
   font-weight: 500;
+  margin: 10px;
 }
