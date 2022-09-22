@@ -46,10 +46,13 @@ const createPokemonBox = (pokemon) => {
     pokemon.types[0].type.name[0].toUpperCase() +
     pokemon.types[0].type.name.slice(1);
   console.log(type);
-  const color = colors[type];
+  const types = pokemon.types[0].type.name;
+
+  const color = colors[types];
+  console.log(color);
   const pokemonElement = document.createElement("div");
   pokemonElement.classList.add("poke-box");
-  pokemonElement.style.backgroundColor = `${color}`;
+  pokemonElement.style.backgroundColor = ` ${color} `;
 
   pokemonElement.innerHTML = `
   <img
