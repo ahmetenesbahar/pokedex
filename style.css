@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url("images/pokeball.png"), auto;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -71,10 +72,6 @@ input {
 
 input:focus {
   outline: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 .poke-container {
