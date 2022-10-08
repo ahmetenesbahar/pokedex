@@ -1,4 +1,4 @@
-## Login/Register Page
+## Pokedex 
 
 Bu proje HTML CSS JavaScirpt kullanarak geliştirdiğim bir Pokedex uygulamasıdır. Uygulamada Pokedeximizden pokemon arayabilir, türüne ve diğer özelliklerine bakabilirsiniz.
 
