@@ -1,6 +1,6 @@
 ## Login/Register Page
 
-Bu proje HTML CSS JavaScirpt kullanarak geliştirdiğim bir pokedex uygulamasıdır. Uygulamada pokedeximizden pokemon arayabilir , türüne ve diğer özelliklerine bakabilirsiniz.
+Bu proje HTML CSS JavaScirpt kullanarak geliştirdiğim bir Pokedex uygulamasıdır. Uygulamada Pokedeximizden pokemon arayabilir, türüne ve diğer özelliklerine bakabilirsiniz.
 
 ## Kurulum
 
@@ -15,8 +15,8 @@ Klonlama işleminin ardından live server açarak kodu önizleyebilirsiniz.
 ## Ekran Görüntüleri
 
 <div>
-<img src="https://github.com/ahmetenesbahar/login-register-page/blob/main/assets/screenshots/Login%2C.png">
-<img src="https://github.com/ahmetenesbahar/login-register-page/blob/main/assets/screenshots/Sign%20Up.png">
+<img src="https://github.com/ahmetenesbahar/pokedex/blob/main/assets/screenshots/pokedex-one-rosy.vercel.app_.png">
+<img src="https://github.com/ahmetenesbahar/pokedex/blob/main/assets/screenshots/pokedex-one-rosy.vercel.app_%20(1).png">
 
 </div>
 
